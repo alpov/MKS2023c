@@ -90,7 +90,7 @@ int main(void)
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
 
-  LL_GPIO_SetOutputPin(LD2_GPIO_Port, LD2_Pin);
+  LL_GPIO_ResetOutputPin(LD2_GPIO_Port, LD2_Pin);
 
   /* USER CODE END 2 */
 
